@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GPT Voice Assistant</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 20px; max-width: 700px; margin:auto; }
+    .status { margin-top: 12px; padding: 10px; border-radius: 6px; }
+    .listening { background: #e6ffed; }
+    .idle { background: #fff5e6; }
+    .transcript { margin-top: 8px; font-size: 0.95rem; color:#333; }
+    button { margin-top: 10px; padding: 10px 14px; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>GPT Voice Assistant</h1>
+  <p>Say "G.P.T" followed by your question. Example: “G.P.T what is the time”.</p>
+  <div id="status" class="status idle">Status: Idle</div>
+  <div class="transcript"><strong>Last transcript:</strong> <span id="last">—</span></div>
+  <div class="transcript"><strong>Assistant:</strong> <span id="assistant">—</span></div>
+  <button id="toggle">Start Listening</button>
+  <script src="assets/app.js"></script>
+</body>
+</html>
