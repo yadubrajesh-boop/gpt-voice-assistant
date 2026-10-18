@@ -15,4 +15,4 @@ This app listens for the wake phrase "G.P.T", sends the remaining spoken text to
 
 This repository includes a GitHub Actions workflow that builds a debug APK artifact automatically.
 
-Build triggered on 2026-10-18.
+Build triggered on 2026-10-18 by Copilot. Trigger commit: bump README to start CI.
